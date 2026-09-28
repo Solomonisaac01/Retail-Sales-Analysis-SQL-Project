@@ -43,7 +43,7 @@ The goal is to demonstrate practical SQL skills that are commonly required for *
 ### Database
 
 ```text
-p1_retail_db
+retail_sales_analysis_project
 
 ```
 
@@ -416,66 +416,8 @@ The analysis can be used to identify:
 - Peak periods based on transaction timing.
 - Customers with the highest total spending.
 
-> **Note:** Specific numerical findings should be added here after running the queries against the final dataset.
-
 ---
 
-# 📁 Project Structure
-
-Recommended GitHub repository structure:
-
-```text
-Retail-Sales-Analysis-SQL/
-│
-├── README.md
-│
-├── Retail_Sales_Analysis.sql
-│
-├── dataset/
-│   └── retail_sales.csv
-│
-└── screenshots/
-    └── sql_results.png
-
-```
-
----
-
-# ▶️ How to Run the Project
-
-### Step 1 — Clone the Repository
-
-```bash
-git clone <your-github-repository-url>
-
-```
-
-### Step 2 — Open PostgreSQL
-
-Open the project in **PostgreSQL / pgAdmin / your preferred SQL environment**.
-
-### Step 3 — Create the Database
-
-Run the database and table creation queries.
-
-### Step 4 — Import the Dataset
-
-Load the retail sales dataset into the `retail_sales` table.
-
-### Step 5 — Run the Analysis Queries
-
-Execute the SQL queries provided in:
-
-```text
-Retail_Sales_Analysis.sql
-
-```
-
-### Step 6 — Explore the Results
-
-Modify the queries or create additional queries to discover further business insights.
-
----
 
 # 📚 SQL Skills Demonstrated
 
@@ -522,7 +464,3 @@ It demonstrates how SQL can be used to perform **data cleaning, exploratory anal
 Aspiring Data Analyst | SQL | Excel | Power BI | Python
 
 ---
-
-## ⭐ If you found this project useful
-
-Feel free to explore the SQL queries, modify them, and extend the project with additional business questions and analysis.
